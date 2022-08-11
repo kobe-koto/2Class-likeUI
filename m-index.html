@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<title>似乎不是青骄第二课堂 :D | kobe koto</title>
+	<link href="./images/icon.png" rel="shortcut icon" type="image/x-icon">
+	<link href="./css/m-main.css" type="text/css" rel="stylesheet">
+	<script src="./js/main.js"></script>
+</head>
+<body>
+
+	<header>
+		<p>< 返回首页</p>
+		<h6>知识竞赛</h6>
+		<img src="./images/search.svg" alt="">
+	</header>
+
+	<div id="exam-box" contenteditable="true">
+		<h2 id="exam-name">exam-name</h2>
+		<p id="exam-time">
+			<a>倒计时：</a>
+			<a id="times">11:45:14</a>
+		</p>
+
+		<table id="exam-info">
+			<tr>
+				<td class="exam-type" id="exam-type">单选</td>
+				<td id="exam-no">2/5</td>
+			</tr>
+		</table>
+
+		<fieldset>
+			<legend id="question">choose any.</legend>
+
+			<div>
+				<input type="radio" name="chooses" id="A" />
+				A.
+				<label for="A" id="choose-A">a</label>
+			</div>
+
+			<div>
+				<input type="radio" name="chooses" id="B" />
+				B.
+				<label for="B" id="choose-B">b</label>
+			</div>
+
+			<div>
+				<input type="radio" name="chooses" id="C" />
+				C.
+				<label for="C" id="choose-C">c</label>
+			</div>
+
+			<div>
+				<input type="radio" name="chooses" id="D" />
+				D.
+				<label for="D" id="choose-D">d</label>
+			</div>
+
+		</fieldset>
+
+		<button type="button" class="ctrl-exam-no button-pre" onclick="alert('你覺得會有嗎?')">上一题</button>
+		<button type="button" class="ctrl-exam-no button-next" onclick="alert('你覺得會有嗎?')">下一题</button>
+
+	</div>
+
+	<div class="copyrightDiv">
+		<div class="copyright">
+			<p>
+				Made with ❤️ by kobe koto
+				<strong> | </strong>
+				&copy;2021 - <strong>kobe-koto</strong>
+				<strong> | </strong>
+				Open Source Code in <a class="hyperlink" href="https://github.com/kobe-koto/2Class-likeUI">GitHub/kobe-koto/2Class-likeUI</a> (AGPL-3.0 License)
+			</p>
+		</div>
+	</div>
+
+</body>
+</html>

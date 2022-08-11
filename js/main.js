@@ -2,6 +2,12 @@
 // Made with heart by kobe-koto in AGPL-3.0 License License
 // copyright 2021 kobe-koto
 
+if (window.innerHeight>window.innerWidth) {
+	if (!window.location.href.toString().match(/m-index.html/i) && window.location.href.toString().match(/index.html/i)) {
+		window.location.href=window.location.href.replace(/index.html/i,"m-index.html")
+	}
+}
+
 window.Class2 = {};
 
 window.Class2.setCookie = function (name,value) {

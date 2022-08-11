@@ -1,0 +1,144 @@
+body {
+	min-height: 100vh;
+	margin: 0;
+}
+header {
+	display: flex;
+	height: 4rem;
+	line-height: 2.5rem;
+	width: 100%;
+	justify-content: space-between;
+	padding: 2.5rem 4.5rem 2.5rem 2.5rem;
+	box-sizing: border-box;
+}
+header * {
+	margin: 0;
+}
+header p {
+	/*color: #28dc8e;*/
+	color: #999999;
+	font-size: 3rem;
+}
+header img {
+	height: 3rem;
+}
+header h6 {
+	color: #28dc8e;
+	font-size: 3rem;
+	font-weight: normal;
+}
+
+#exam-box {
+	text-align: center;
+	padding: 20px;
+}
+#exam-name {
+	margin-bottom: 0;
+}
+#exam-time {
+	text-align: right;
+}
+
+
+.exam-type {
+	padding: 5px 20px;
+	color: #444444;
+	background-color: #ffdb01;
+	display: block;
+	width: max-content;
+	text-align: left;
+}
+#exam-no {
+	text-align: right;
+}
+#exam-info {
+	width: 100%;
+}
+#exam-info tr td {
+	font-size: 2.5rem;
+}
+fieldset,table {
+	border: none;
+}
+fieldset {
+	text-align: left;
+}
+fieldset div {
+	font-size: 2.5rem;
+}
+fieldset {
+	font-size: 3.5rem;
+}
+input[type=radio] {
+	height: 2rem;
+	width: 2rem;
+}
+
+h1 {
+	font-size: 5.5rem;
+}
+h2 {
+	font-size: 4.5rem;
+}
+h3 {
+	font-size: 3.5rem;
+}
+h4 {
+	font-size: 2.5rem;
+}
+h5 {
+	font-size: 1.5rem;
+}
+h6 {
+	font-size: 0.5rem;
+}
+p {
+	font-size: 2rem;
+}
+.ctrl-exam-no {
+	margin: 0 15px;
+	padding: 16px 40px;
+	font-size: 2.5rem;
+	border-radius: 0.6rem;
+}
+.button-pre {
+	color: #999999;
+	background-color: #ffffff;
+	border: 1px solid #999999;
+}
+.button-next {
+	background-color: #0fe18a;
+	color: #ffffff;
+	border: 1px solid #0fe18a;
+}
+.hyperlink {
+	color: #00bfff;
+	text-decoration: none;
+	transition: all 0.2s cubic-bezier(0.74, 0.51, 1, 1.24);
+}
+.hyperlink:hover {
+	background-color: rgba(80,211,255,0.58);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #00bfff;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+.copyrightDiv {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.copyright {
+	margin: auto;
+	display: inline-block;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background-color: rgba(0,0,0,0.45);
+	backdrop-filter: blur(6px);
+	-webkit-backdrop-filter: blur(6px);
+	color: #ffffff;
+	padding: 35px 20px 30px 20px;
+}
